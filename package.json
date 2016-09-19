@@ -7,5 +7,21 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Keposmile",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Keposmile/Web-Crawler.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Keposmile/Web-Crawler/issues"
+  },
+  "homepage": "https://github.com/Keposmile/Web-Crawler#readme",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "fs": "0.0.1-security",
+    "mysql": "^2.11.1",
+    "phantom": "^2.1.21",
+    "request": "^2.75.0",
+    "superagent": "^2.2.0"
+  }
 }
